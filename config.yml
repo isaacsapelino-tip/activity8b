@@ -1,0 +1,13 @@
+# Docker
+docker_user: isaacsapelino-tip
+docker_repo: docker-ce.repo
+
+# Elasticsearch
+elk_docker_img_name: elk
+elk_docker_img_tag: latest
+elk_container_name: elkstack
+elk_ports:
+  - 9200:9200
+  - 5601:5601
+  - 5044:5044
+elk_dockerfile_path: docker/elk
